@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "mohammed-prod-369618"
-    prefix = "env/dev"
+    bucket = "iac-k8s-project"
+    prefix = "env/prod"
   }
 }
